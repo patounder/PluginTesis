@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<!-- Dockable component definition file for ReconocedorVoz plugin -->
+<!-- $Id$
+-->
+
+<!DOCTYPE DOCKABLES SYSTEM "dockables.dtd">
+
+<!-- ReconocedorVoz dockable windows -->
+
+<DOCKABLES>
+	<DOCKABLE NAME="reconocedorVoz">
+               new ReconocedorVoz(view, position);
+	</DOCKABLE>
+</DOCKABLES>

@@ -1,0 +1,58 @@
+# Properties file for ReconocedorVoz plugin
+# $Id$
+
+# jEdit only needs to load the plugin the first time the user accesses it
+# the presence of this property also tells jEdit the plugin is using the new API
+plugin.ReconocedorVozPlugin.activate=defer
+
+# These two properties are required for all plugins
+plugin.ReconocedorVozPlugin.name=Reconocedor Voz
+plugin.ReconocedorVozPlugin.author=John Gellene
+
+# version number == jEdit version number
+plugin.ReconocedorVozPlugin.version=4.4
+
+# online help
+plugin.ReconocedorVozPlugin.docs=index.html
+
+# we only have one dependency, jEdit 4.2, since we use the new plugin API
+plugin.ReconocedorVozPlugin.depend.0=jedit 04.02.01.00
+plugin.ReconocedorVozPlugin.depend.1=jdk 1.4
+
+plugin.ReconocedorVozPlugin.description=This plugin provides a dockable "scratch pad" for writing and displaying notes, to do lists or similar items as unformatted text.
+# plugin menu
+plugin.ReconocedorVozPlugin.menu=reconocedorVoz \
+
+# action labels for actions supplied by dockables.xml
+reconocedorVoz.label=Iniciar
+
+# action labels for actions supplied by actions.xml
+#reconocedorVoz.choose-file.label=Choose notepad file
+#reconocedorVoz.save-file.label=Save notepad file
+#reconocedorVoz.copy-to-buffer.label=Copy notepad to buffer
+
+# plugin option pane
+#plugin.ReconocedorVozPlugin.option-pane=reconocedorVoz
+
+# Option pane activation BeanShell snippet
+#options.reconocedorVoz.code=new ReconocedorVozOptionPane();
+
+# Option pane labels
+#options.reconocedorVoz.label=ReconocedorVoz
+#options.reconocedorVoz.file=File:
+#options.reconocedorVoz.choose-file=Choose
+#options.reconocedorVoz.choose-file.title=Choose a notepad file
+#options.reconocedorVoz.choose-font=Font:
+#options.reconocedorVoz.show-filepath.title=Display notepad file path
+
+# window title
+reconocedorVoz.title=Reconocedor Voz
+
+# default settings
+options.reconocedorVoz.show-filepath=true
+options.reconocedorVoz.font=Monospaced
+options.reconocedorVoz.fontstyle=0
+options.reconocedorVoz.fontsize=14
+
+# Setting not defined but supplied for completeness
+options.reconocedorVoz.filepath=
